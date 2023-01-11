@@ -9,7 +9,7 @@
 remove(list = ls())
 library(dplyr)
 library(data.table)
-library(OpenMx)
+library(OpenMx) # OpenMx was used to fit the CT and DT models. See Note 1 in the end for comments on other packages for estimation.
 library(tidyverse)
 library(ggh4x)
 
@@ -562,4 +562,4 @@ for (j in c(1:48)) {
                          j, ".csv", sep = ""), row.names = FALSE)
 }
 
-
+# Note 1: We also fit the models using Dynr package in R (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8297742/) but we discovered that for this specific group of conditions, the estimation was highly biased when the AR parameter is less than .3. This is because dynr uses a numerical solver and for this specific conditions of a CT-AR model used here, it faces issues with estimation.  
