@@ -1,4 +1,4 @@
-# Consequences of sampling frequency on the estimated dynamics of AR processes using continuous time models.
+# Consequences of sampling frequency on the estimated dynamics of AR processes using continuous-time models.
 
 Batra, R., Johal, S. K., Chen, M., & Ferrer, E. (2023). Consequences of sampling frequency on the estimated dynamics of AR processes using continuous-time models. Psychological Methods. Advance online publication. https://doi.org/10.1037/met0000595
 
