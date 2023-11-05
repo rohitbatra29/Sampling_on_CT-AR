@@ -1,6 +1,6 @@
 # Consequences of sampling frequency on the estimated dynamics of AR processes using continuous-time models.
 
-This page is dedicated for the simulation and analysis code used in the paper. 
+This page contains all the simulation and analysis code used in the paper. 
 
 Psychological Methods Link: https://psycnet.apa.org/record/2023-87339-001
 
